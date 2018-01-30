@@ -42,7 +42,8 @@ while True:
         text = pytesseract.image_to_string(Image.open(img_name))
         
         return_text(text)
-#         print(text)
+        print(text)
+        break
   
 #         print("{} written!".format(text))
         img_counter += 1
